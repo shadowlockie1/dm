@@ -1,5 +1,5 @@
 import json, requests, random, time
-from threading import Lock, Thread, Semaphore
+from threading import Thread, Semaphore
 from queue import Queue
 # set these using discord developer mode
 from conf import SUPER_PROPS, AUTHORIZATION, USER_AGENT, REFERER, COOKIE, CHANNEL_ID
