@@ -68,8 +68,8 @@ def worker():
         with request_lock:
             requests.post(channel_url, headers=headers,
                           data=data)
-            time.sleep(1)
             if dual_command:
+                time.sleep(1)
                 requests.post(channel_url, headers=headers,
                               data=secondary_data)
                 time.sleep(1)
