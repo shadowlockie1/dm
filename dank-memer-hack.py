@@ -87,8 +87,7 @@ def worker():
 
 workers = []
 # change timeouts for each command if you're not a normie user
-for cmd in [('pls beg', 30), ('pls slots 1', 3), ('pls bet 1', 2), ('pls fish', 30), ('pls pm', 60),
-            ('pls trivia', 25), ('pls pet pat', 5)]:
+for cmd in COMMANDS:
     queue.put(cmd)
 for i in range(WORKERS):
     t = Thread(target=worker)
