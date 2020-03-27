@@ -6,7 +6,7 @@ from conf import SUPER_PROPS, AUTHORIZATION, USER_AGENT, REFERER, COOKIE, CHANNE
 
 COMMANDS = [('pls beg', 31), ('pls slots 1', 4), ('pls bet 1', 3), ('pls fish', 31), ('pls pm', 61),
             ('pls trivia', 26), ('pls pet pat', 6), ('pls use candy', 4), ('pls sell fish', 9), ('pls scout', 31),
-            ('pls pet feed', 3000), ('pls pet wash', 3000), ('pls pet play', 10000), ('pls rich', 10), ('pls give <@!197607813365760000> 1', 12),
+            ('pls pet feed', 3000), ('pls pet wash', 3000), ('pls pet play', 10000), ('pls rich', 10),
             ('pls dep 1', 60), ('pls with 1', 50), ('pls lottery', 3600)]
 WORKERS = len(COMMANDS) + 1
 queue = Queue()
