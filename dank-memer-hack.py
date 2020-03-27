@@ -13,7 +13,7 @@ nonce_lock, data_lock, secondary_data_lock, request_lock = (
 channel_url = 'https://discordapp.com/api/v6/channels/{}/messages'.format(str(CHANNEL_ID))
 nonce = "722789522290923712" # or some other bignum
 
-data = '{"content":"","nonce": NONCE,"tts":false}'
+data = '{"content":"test","nonce": NONCE,"tts":false}'
 secondary_data = '{"content":"d","nonce": NONCE,"tts":false}'
 
 headers = {
